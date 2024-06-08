@@ -63,3 +63,72 @@
     font-size: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+@media(width <=480px){
+    .titulo{
+        font-size: 4.85em;
+        margin-top: -.5em;
+        margin-bottom: -.5em;
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 1.5em;
+        margin-bottom: -.5em;
+    }
+    .subtitulos{
+        font-size: 1.3em;
+        margin-bottom: 1.2em;
+    }
+    .input{
+        width: 75%;
+        margin: 1.2%;
+        padding: -7em;
+        text-align: center;
+    }
+    .boton{
+        width: 55%;
+        margin-top: -.32em;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+    @media(width <= 750px){
+        .titulo{
+            font-size: 3.5em;
+            margin-top: .2em;
+            margin-bottom: .5em;
+            text-align: center;
+        }
+        .subtitulo{
+            font-size: 1.5em;
+            margin-bottom: .1em;
+            text-align: center;
+        }
+        .subtitulos{
+            font-size: 2em;
+            margin-bottom: 2.5em;
+        }
+        .input{
+            width: 80%;
+            margin: 1.5%;
+            padding: .35em;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .boton{
+            width: 50%;
+            padding: 1em;
+            margin-bottom: 3%;
+            font-size: 1.2em;
+        }
+        .botonera{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+        }
+        .botonC{
+            width: 2.2em;
+            height: 2.5em;
+            padding: 25px;
+            margin: 0.2em;
+        }
+    }
+}
