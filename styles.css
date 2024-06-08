@@ -6,7 +6,7 @@ Body{
     text-align: center; 
     
 }
-h1{
+.titulo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     background-color: brown;
@@ -67,4 +67,31 @@ td{
     display:grid;
     place-items: center;
     font-size: larger;
+}
+@media(width <= 480px){
+    .titulo{
+        font-size: 3em;
+        margin-bottom: .2em;
+    }
+    .Demi{
+        font-size: 1.65em;
+        margin-top: .6em;
+    }
+    .hobi{
+        font-size: 1.65em;
+        margin-top: .6em;
+    }
+    h3{
+        font-size: 1.4em;
+        margin-top: 1.2em;
+    }
+    .Tab{
+        width: 20%;
+        font-size: .1;
+        padding: 1em;
+        margin-top: -.35em;
+        margin-bottom: 1em;
+    }
+
+    
 }
